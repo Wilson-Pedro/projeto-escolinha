@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, Arial, Helvetica, sans-serif;
+}
+
+body {
+    min-width: 97vw;
+    min-height: 100vh;
+    background-color: rgb(223, 217, 217);
+}
+
+header{
+    background: linear-gradient(to bottom, red, rgba(255, 0, 0, 0.781));
+    padding: 1.4%;
+}
+
+header > h2 {
+    text-align: left;
+    color: white;
+    font-size: 8vh;
+    text-shadow: 0px 1px 1px black;
+    font-weight: bold;
+    text-align: center;
+}
+
+div#imagem{
+    background-image: url('../img/pagina-inicial/istockphoto-1199894704-170667a.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+#parteDeBaixo{
+    height: 100vh;
+    background: linear-gradient(to bottom, rgb(185, 184, 184), rgb(233, 232, 232))
+    
+}
+
+#containerForm{
+    background-color: rgba(255, 255, 255, 0.267);
+    border: 1px solid;
+    border-color: gray;
+    box-shadow: 1px 1px 9px 0px black;
+    border-radius: 3%;
+    margin: 8%;
+    padding: 3%;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
